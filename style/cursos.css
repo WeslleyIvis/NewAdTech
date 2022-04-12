@@ -1,0 +1,64 @@
+.cursos {
+  text-align: center;
+  margin-bottom: 60px;
+  padding-top: 30px;
+}
+
+.p-style {
+  color: rgb(121, 121, 121);
+  padding-bottom: 30px ;
+}
+
+.block-cursos {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.cursos h2, h3 {
+  color: rgb(184, 184, 184);
+  padding: 10px;
+}
+
+.cursos h2 {
+  color: rgb(123, 193, 240);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: start;
+}
+
+.inf-cursos {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  width: 1150px;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.block-img {
+  margin: 0 10px;
+  width: 100%;
+  text-align: center;
+  height: 20rem;
+  gap: 10px;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.block-img:hover {
+  display: none;
+
+}
+
+.op-cursos {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.op-cursos p {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}

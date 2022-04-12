@@ -1,0 +1,32 @@
+.header {
+  background-color: #11476D;
+  padding: 2px; 
+  color: white;
+  
+}
+
+.box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1150px;
+  margin: 0 auto;
+  height: 30px;
+}
+
+.box-header div  {
+  margin-left: 20px;
+}
+
+.box-header div span {
+  padding-left: 20px
+}
+
+.redes-sociais {
+  margin-right: 10px;
+}
+
+.redes-sociais img {
+  width: 15px;
+  height: 15px;
+}

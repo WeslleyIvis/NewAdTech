@@ -1,0 +1,77 @@
+.plataforma {
+  background-color: #11476D;
+  padding-bottom: 100px;
+}
+
+.plataforma div {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.sobre {
+  padding-top: 200px;
+  width: 50px;
+  gap: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.sobre img {
+  width: 510px;
+  height: 325px;
+  border: 20px solid rgb(206, 203, 203);
+  box-shadow: 10px 15px 25px -11px rgba(0,0,0,0.46);
+}
+
+.sobre div h2  {
+  width: 410px;
+  color: white;
+  margin-top: 20px;
+}
+
+
+
+.sobre div button{
+  border: none;
+  border-radius: 13px 13px 13px 13px;
+  background-color: rgb(200, 158, 240);
+  padding: 15px;
+  margin: 100px 5em;
+}
+
+.sobre div a {
+  text-decoration: none;
+  padding: 50px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.beneficios {
+  padding-top: 75px;
+}
+
+.sobre-beneficios {
+  display: flex;
+  color: white;
+}
+
+.sobre-beneficios div {
+  width: 215px;
+  padding: 20px;
+}
+
+.sobre-beneficios div h4 {
+  padding: 20px 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons img{
+  width: 150px;
+  height: 150px;
+}

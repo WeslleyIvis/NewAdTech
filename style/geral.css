@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+span, a, li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.button-style {
+  width: 260px;
+  height: 55;
+  border-radius: 13px 13px 13px 13px;
+  border: none;
+  padding: 13px 35px;
+  background-color: #9999FF;
+  cursor: pointer;
+}
+
+.button-style a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.button-style:hover {
+  background-color: #7373c2;
+}
+
+.carrousel {
+  box-shadow: 2px 37px 49px -57px #000000;
+}
+
+.carrousel img{
+  width: 99vw;
+}
