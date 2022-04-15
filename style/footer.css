@@ -1,0 +1,13 @@
+footer {
+  background-color: #092336;
+  box-shadow: 0 -10px 50px rgba(0, 0, 0, 0.432) ;
+}
+
+.block-footer {
+  display: flex;
+  margin: 0 auto;
+  gap: 10em;
+  max-width: 1150px;
+  color: white;
+}
+

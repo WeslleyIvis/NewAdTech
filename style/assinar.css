@@ -1,0 +1,32 @@
+.assinar {
+  /* background-image: url('https://i.pinimg.com/564x/d2/9d/e7/d29de79eabc6fd143f8abe610af79e3b.jpg'); */
+  background-size: cover;
+  background-color: #11476D;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.assinar h2 {
+  padding: 0 0 2em 0;
+}
+
+.block-assinar {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1150px;
+  justify-content: space-evenly;
+}
+
+.block-assinar li + li {
+  min-width: 300px;
+  text-align: start;
+  list-style: disc;
+  padding: 1em 0;
+  color: rgb(224, 225, 255);
+}
+
+.block-assinar ul {
+  margin-bottom: 60px;
+}
+

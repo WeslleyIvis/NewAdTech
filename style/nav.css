@@ -4,6 +4,7 @@
   max-width: 1150px;
   margin: 0 auto;
   z-index: 2;
+  
 }
 
 .navbar .logo {
@@ -14,6 +15,7 @@
 
 .nav-links {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   height: 70px;
 }
