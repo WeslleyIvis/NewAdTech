@@ -4,30 +4,34 @@
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-span, a, li {
+h2, p {
+  padding: 20px 0;
+}
+
+.white-title {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}
+
+span, a, li, p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1em;
   font-size: 14px;
   text-decoration: none;
   list-style: none;
 }
 
 .button-style {
-  width: 260px;
-  height: 55;
   border-radius: 13px 13px 13px 13px;
-  border: none;
+  font-weight: bold;
   padding: 13px 35px;
   background-color: #9999FF;
   cursor: pointer;
-}
-
-.button-style a {
   color: white;
-  font-size: 20px;
-  text-decoration: none;
 }
 
 .button-style:hover {
@@ -40,4 +44,8 @@ span, a, li {
 
 .carrousel img{
   width: 99vw;
+}
+
+.margin {
+  margin: 40px;
 }
