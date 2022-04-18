@@ -34,6 +34,7 @@
 
     <nav class="navbar">
       <a href="/"><img class="logo" src="media/AdLogo.svg" alt="Logotipo"></a>
+      <button data-menu="button" aria-expanded="false" aria-controls="menu">MENU</button>
       <ul class="nav-links">
         <li><a href="">Home</a> </li>
         <li><a href="">Cursos</a></li>
@@ -46,7 +47,11 @@
 
     <main>
       <div class="carrousel">
-        <img src="media/banner1920x400.png" alt="Banner Curso de celular">
+        <picture>
+          <source srcset="https://ctiglobal.com/wp-content/uploads/2021/07/Analise-de-dados-e-simulacao-financeira-600x400.jpg" media="(max-width: 600px)">
+          <source srcset="https://portal.prodam.sp.gov.br/wp-content/uploads/2021/04/270421_default_DIVA.1000x400.jpg" media="(max-width: 1000px)">
+          <img src="media/banner1920x400.png" alt="">
+        </picture>
       </div>
 
 
@@ -119,7 +124,7 @@
         <div data-quem-somos="block">
           <h2>Quem somos</h2>
           <div class="block-info">
-            <img src="media/woman.SVG" alt="">
+            <img src="media/img-380x380.png" alt="">
             <div>
               <h4>lorem</h4>
               <p>Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.</p>
@@ -179,6 +184,9 @@
       </div>
     </footer>
   </div>
+
+
+  <script type="modules" src="script/modules/"></script>
 
 </body>
 

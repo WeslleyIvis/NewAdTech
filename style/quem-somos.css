@@ -15,12 +15,16 @@
 }
 
 .block-info p {
-  padding-top: 20px;
   max-width: 440px;
-  
 }
 
 .block-info img {
   width: 380px;
   height: 325x;
+}
+
+@media (max-width: 700px) {
+  .block-info {
+    margin: 20px
+  }
 }
