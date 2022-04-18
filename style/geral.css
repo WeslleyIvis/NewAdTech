@@ -38,6 +38,10 @@ span, a, li, p {
   background-color: #7373c2;
 }
 
+.margin {
+  margin: 40px;
+}
+
 .carrousel {
   box-shadow: 2px 37px 49px -57px #000000;
 }
@@ -46,6 +50,9 @@ span, a, li, p {
   width: 99vw;
 }
 
-.margin {
-  margin: 40px;
+@media (max-width: 1000px) {
+  .carrousel {
+    
+  }
 }
+
