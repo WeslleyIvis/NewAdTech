@@ -6,8 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,600&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style/style.css">
 
 
@@ -16,12 +19,12 @@
 
 <body>
 
-  <div class="container">
+  <section class="container">
     <header class="header">
       <div class="box-header">
         <div>
-          <span class="fone">TELEFONE</span>
-          <span class="email">EMAIL</span>
+          <span class="fone"><a href="">11 55555-5555</a></span>
+          <span class="email">Tech@email.com</span>
         </div>
         <div class="redes-sociais">
           <a href="/" aria-label="Facebook"><img src="media/icons/facebook50x50.svg" alt=""></a>
@@ -33,41 +36,60 @@
     </header>
 
     <nav class="navbar">
-      <a href="/"><img class="logo" src="media/AdLogo.svg" alt="Logotipo"></a>
-      <button data-menu="button" aria-expanded="false" aria-controls="menu">MENU</button>
+      <a href="/"><img class="logo" src="media/logoNew.jpg" alt="Logotipo"></a>
+      <button data-menu="button" aria-expanded="false" aria-controls="menu"></button>
       <ul class="nav-links">
         <li><a href="">Home</a> </li>
-        <li><a href="">Cursos</a></li>
-        <li><a href="">Sobre</a></li>
-        <li><a href="">Afiliados</a></li>
-        <li><a href="">Certificado</a></li>
-        <li><a href="">Contato</a></li>
+        <li><a href="#cursos">Cursos</a></li>
+        <li><a href="#certificado">Certificado</a></li>
+        <li><a href="#comprar">Comprar</a></li>
       </ul>
     </nav>
 
     <main>
-      <div class="carrousel">
+      <section class="carrousel">
         <picture>
-          <source srcset="https://ctiglobal.com/wp-content/uploads/2021/07/Analise-de-dados-e-simulacao-financeira-600x400.jpg" media="(max-width: 600px)">
-          <source srcset="https://portal.prodam.sp.gov.br/wp-content/uploads/2021/04/270421_default_DIVA.1000x400.jpg" media="(max-width: 1000px)">
-          <img src="media/banner1920x400.png" alt="">
+          <source
+            srcset="https://ctiglobal.com/wp-content/uploads/2021/07/Analise-de-dados-e-simulacao-financeira-600x400.jpg"
+            media="(max-width: 600px)">
+          <source srcset="https://portal.prodam.sp.gov.br/wp-content/uploads/2021/04/270421_default_DIVA.1000x400.jpg"
+            media="(max-width: 1000px)">
+          <img src="media/banner/banner1920x500.jpg" alt="">
         </picture>
-      </div>
+      </section>
+
+      <section class="introducao">
+        <div class="intro-mask-img"><img src="media/img-380x380.png" alt="Celular"></div>
+        <div>
+          <p>CURSO MANUTENÇÃO DE CELULARES</p>
+          <h3>CURSO TOTALMENTE EM VÍDEO AULAS <span class="color-bold"> PRÁTICAS E DETALHADAS </span>COM CERTIFICADO
+            INCLUSO</h3>
+          <p>Você vai aprender com aulas de extrema qualidade <b> todos os fundamentos e técnicas </b> indispensáveis
+            que vão te
+            capacitar a fazer manutenção em celulares. Você vai ter acesso a um conteúdo completo!
+          </p>
+          <p> Além de dominar os equipamentos necessários, você também vai descobrir diversas dicas e <b> instruções
+              para
+              você
+              se tornar um profissional qualificado.</b></p>
+        </div>
+      </section>
 
 
-      <div class="cursos">
+      <section class="cursos" id="cursos">
         <div class="block-cursos">
-          <h2>CURSOS TECNICOS</h2>
+          <h2>VEJA O QUE <span class="color-bold"> VAI APRENDER</span></h2>
 
           <div class="op-cursos">
-            <p class="p-style"> Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero.</p>
+            <p> Você tabém vai ter aceeso a span todas as atualizações do curso
+            </p>
           </div>
 
           <div class="inf-cursos">
             <div class="block">
               <img class="block-img" src="media/streamline-icon-change-settings@400x400.PNG" alt=""></img>
-              <h3>CONSERTO DE HARDWARER</h3>
-              <span>Aprenda tudo que precisa para consertar qualquer celular, do básico ao avançado</span>
+              <h4>CONSERTO DE HARDWARER</h4>
+              <p> Aprenda tudo que precisa para consertar qualquer celular, do básico ao avançado</p>
             </div>
 
             <div data-conteudo="curso">
@@ -83,8 +105,8 @@
 
             <div class="block">
               <img class="block-img" src="media/streamline-icon-logged-in@400x400.PNG" alt=""></img>
-              <h3>LOREM</h3>
-              <span>Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero.</span>
+              <h4>LOREM</h4>
+              <p> Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero.</p>
 
             </div>
 
@@ -102,8 +124,9 @@
 
             <div class="block">
               <img class="block-img" src="media/streamline-icon-update-sync@400x400.PNG" alt=""></img>
-              <h3>SOFTWARE</h3>
-              <span>Entenda como funciona os sistemas operacionais de cada dispositivos e como configurar da forma correta.</span>
+              <h4>SOFTWARE</h4>
+              <p>Entenda como funciona os sistemas operacionais de cada dispositivos e como configurar da forma
+                correta.</p>
             </div>
 
             <div data-conteudo="curso">
@@ -118,23 +141,24 @@
             </div>
           </div>
 
-
-
-          <div class="margin"><a class="button-style" href="/">INCREVER-SE</a></div>
-
+          <!-- <div class="button-curso"><a class="button-style" href="/">INCREVER-SE</a></div> -->
 
         </div>
-      </div>
+      </section>
 
-      <div class="plataforma">
+      <section class="plataforma">
         <div>
           <div class="sobre">
-            <img src="media/plataforma.jpg" alt="">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4zeUOUo09Hs"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
             <div>
               <h2>A maior plataforma brasileira de cursos de tecnologia.</h2>
-              <p>Donec ut est in lectus consequat consequat. Etiam eget dui. Aliquam erat volutpat. Sed at lorem in nunc porta tristique. Proin nec augue.</p>
+              <p>Donec ut est in lectus consequat consequat. Etiam eget dui. Aliquam erat volutpat. Sed at lorem in nunc
+                porta tristique. Proin nec augue.</p>
 
-              <div class="button-p"><a href="">Começe já</a> </div>
+              <!-- <div class="button-p"><a href="">Começe já</a> </div> -->
             </div>
           </div>
           <div class="beneficios">
@@ -142,7 +166,8 @@
               <div>
                 <img src="media/up-men.PNG" alt="">
                 <h4>LOREM</h4>
-                <span>Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</span>
+                <span>Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                  turpis egestas.</span>
               </div>
               <div>
                 <img src="media/money.PNG" alt="">
@@ -157,72 +182,156 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="quem-somos">
-        <div data-quem-somos="block">
-          <h2>Quem somos</h2>
-          <div class="block-info">
-            <img src="media/img-380x380.png" alt="">
-            <div>
-              <h4>lorem</h4>
-              <p>Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.</p>
-            </div>
+      <section class="certificado" id="certificado">
+        <img src="media/certificado1280x905.jpg" alt="">
+        <div>
+          <p>CERTIFICADO GARANTIDO</p>
+          <h3><span class="color-bold"> CERTIFICADO </span>VÁLIDO INCLUSO</h3>
+          <p>Você vai ter acesso a este lindo certificado após concluir o curso.</p>
+          <p>Certificado com carga horária, CNPJ e válido em todo território nacional em conformidade com o Decreto
+            Presidencial N° 5.154.</p>
+        </div>
+      </section>
+
+      <section class="comunity">
+        <h4>Pessoas Satisfeitas</h4>
+        <div class="pessoas">
+
+          <div class="block-pessoa">
+            <img src="media/comunidade/fabiano.jpg" alt="Foto do rosto de uma pessoa">
+            <h4>Fabiano Reis</h4>
+            <span>Comercei minha carreira através do curso que fiz na NewADtech.</span>
           </div>
-          <div class="block-info">
-            <div>
-              <h4>lorem</h4>
-              <p>Integer ultrices lobortis eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin semper, ante vitae sollicitudin posuere, metus quam iaculis nibh, vitae scelerisque nunc massa eget pede. Sed velit urna, interdum vel, ultricies vel, faucibus at, quam. Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi.</p>
-            </div>
-            <img src="media/woman.SVG" alt="">
+
+          <div class="block-pessoa">
+            <img src="media/comunidade/victor-hiro.png" alt="Foto do rosto de uma pessoa">
+            <h4>Victor Hiro</h4>
+            <span>teste</span>
+
           </div>
-          <div class="block-info">
-            <img src="media/woman.SVG" alt="">
-            <div>
-              <h4>lorem</h4>
-              <p>In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            </div>
+
+          <div class="block-pessoa">
+            <img src="media/comunidade/amilton.png" alt="Foto do rosto de uma pessoa">
+            <h4>Amilton</h4>
+            <span>teste</span>
+          </div>
+
+          <div class="block-pessoa">
+            <img src="media/comunidade/anderson.png" alt="Foto do rosto de uma pessoa">
+            <h4>Anderson</h4>
+            <span>teste</span>
+          </div>
+
+          <div class="block-pessoa">
+            <img src="media/comunidade/gustavo.png" alt="Foto do rosto de uma pessoa">
+            <h4>Gustavo</h4>
+            <span>teste</span>
+          </div>
+
+          <div class="block-pessoa">
+            <img src="media/comunidade/pedro.png" alt="Foto do rosto de uma pessoa">
+            <h4>Pedro Moreira</h4>
+            <span>teste</span>
+          </div>
+
+          <div class="block-pessoa">
+            <img src="media/comunidade/carlos_magno.png" alt="Foto do rosto de uma pessoa">
+            <h4>Carlos Magno</h4>
+            <span>teste</span>
+          </div>
+
+          <div class="block-pessoa">
+            <img src="media/comunidade/Danilo-felix.png" alt="Foto do rosto de uma pessoa">
+            <h4>Danilo Felix</h4>
+            <span>teste</span>
+          </div>
+
+          <div class="block-pessoa">
+            <img src="media/comunidade/darleon.png" alt="Foto do rosto de uma pessoa">
+            <h4>Darleon</h4>
+            <span>teste</span>
+          </div>
+
+          <div class="block-pessoa">
+            <img src="media/comunidade/Carlos.png" alt="Foto do rosto de uma pessoa">
+            <h4>Carlos</h4>
+            <span>teste</span>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="assinar" id="comprar">
+        <span>
+          <h2>OFERTA POR <span class="color-bold"> TEMPO LIMITADO! </span>
+            <p>de R$ 1690,00 Por Apenas</p> 10x de <span class="span-animation"> R$ 120,54 * </span>
+            <p>ou à vista por R$
+              1.000,00</p>
+          </h2>
+        </span>
+        <div class="button-element">
+          <a href="https://wa.me/5511982466651" target="blank">
+            <span>
+              COMEÇAR AGORA
+            </span>
+          </a>
+        </div>
+      </section>
+
+
+
+      <section class="block-perguntas">
+        <h4 class="title-perguntas">Perguntas frequentes</h4>
+        <div class="perguntas">
+          <div>
+            <span> Qual a forma de pagamento?</span>
+            <p>Você pode escolher entre boleto, cartões de crédito ou PIX. Lembrando que pagamento via cartão de
+              crédito
+              ou PIX seu acesso é liberado agora mesmo.</p>
           </div>
         </div>
-      </div>
 
-      <div class="assinar">
-        <h2 class="white-title">COMECE AGORA</h2>
-        <div class="block-assinar">
+
+        <div class="perguntas">
           <div>
-            <ul>
-              <li>
-                <h3 class="white-title">Nome do curso</h3>
-              </li>
-              <li>Planos</li>
-              <li>Melhores momentos</li>
-              <li>Suporte 24hr</li>
-              <li>Planos exclusivos</li>
-              <li>Tempo do curso</li>
-            </ul>
-
-            <div class="margin">
-              <a href="https://wa.me/5511982466651" class="button-style" target="blank">Inscrever-se</a>
-            </div>
+            <span>Se eu tiver dúvidas?</span>
+            <p>Você pode tirar todas as dúvidas por Whatsapp sempre que precisar, haverá suporte sempre sem ter que
+              agendar, só aguardar um dos técnicos atenda você.</p>
           </div>
+        </div>
+        <div class="perguntas">
           <div>
-            <img src="media/streamline-icon-change-settings@400x400.PNG" alt="">
+            <span>Quanto tempo a duração desse curso?</span>
+            <p>Nosso curso é por tempo integral de 5 dias corridos com carga horária de 48 horas/aulas.</p>
+          </div>
+
+        </div>
+        <div class="perguntas">
+          <div>
+            <span>Como eu recebo o certificado?</span>
+            <p>Você recebe no fim do curso impresso ou pode baixar o certificado direto de sua área restrita quando
+              terminar o curso.</p>
           </div>
         </div>
 
-
-      </div>
+      </section>
     </main>
-
     <footer class="footer">
       <div class="block-footer">
-        <p>Todos os direitos reservados 2022°</p>
-        <p>Tel: 11 55555-5555</p>
-        <p>Email/ endereço</p>
-        <p>Redes Sociais</p>
+        <p>Todos os direitos reservados </p>
+        <div class="redes-sociais">
+          <a href="/" aria-label="Facebook"><img src="media/icons/facebook50x50.svg" alt=""></a>
+          <a href="/" aria-label="Linkdin"><img src="media/icons/linkdin50x50.svg" alt=""></a>
+          <a href="/" aria-label="Twiter"><img src="media/icons/Twiter50x50.svg" alt=""></a>
+          <a href="/" aria-label="youtube"><img src="media/icons/youtube50x50.svg" alt=""></a>
+        </div>
       </div>
     </footer>
-  </div>
+  </section>
+
+
 
 
   <script type="module" src="script/script.js"></script>

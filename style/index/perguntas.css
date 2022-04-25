@@ -1,0 +1,60 @@
+.block-perguntas {
+    text-align: center;
+    padding-bottom: 50px;
+    background-color: #f6f6f6;
+}
+
+.title-perguntas {
+    padding: 50px 0;
+}
+
+.perguntas div {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    margin: 0 auto;
+    width: 50%;
+    font-size: .9em;
+    padding: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: start;
+    transition: .5s;
+
+}
+
+
+.perguntas h4 {
+    padding-top: 0;
+}
+
+.perguntas span::after {
+    content: ' ↴';
+
+}
+
+.perguntas p {
+    margin: 0 auto;
+    display: none;
+    animation: 1s animation forwards;
+
+}
+
+.perguntas p.active {
+    display: block;
+}
+
+@keyframes animation {
+    from {
+        margin-top: -20px;
+    }
+
+    to {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    .perguntas div {
+        width: 80%;
+    }
+}

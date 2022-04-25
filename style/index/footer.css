@@ -1,0 +1,25 @@
+footer {
+  background-color: #092336;
+  box-shadow: 0 -10px 50px rgba(0, 0, 0, 0.432);
+  padding: 20px;
+  align-content: center;
+}
+
+footer p {
+  font-size: 15px
+}
+
+.block-footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-around;
+  max-width: 1150px;
+  color: white;
+}
+
+@media (max-width: 700px) {
+  footer {
+    padding: 10px
+  }
+}

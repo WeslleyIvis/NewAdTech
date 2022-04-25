@@ -1,0 +1,31 @@
+.introducao {
+    display: flex;
+    margin: 0 auto;
+    padding: 100px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5em;
+    background-color: rgb(255, 255, 255);
+}
+
+.introducao img {
+    max-width: 80vw;
+    left: 0;
+}
+
+.introducao div {
+    max-width: 600px;
+}
+
+
+
+@media (max-width: 700px) {
+    .introducao {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .introducao div {
+        padding: 0 20px;
+    }
+}
