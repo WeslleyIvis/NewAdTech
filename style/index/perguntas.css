@@ -19,9 +19,7 @@
     cursor: pointer;
     text-align: start;
     transition: .5s;
-
 }
-
 
 .perguntas h4 {
     padding-top: 0;
@@ -29,14 +27,12 @@
 
 .perguntas span::after {
     content: ' ↴';
-
 }
 
 .perguntas p {
     margin: 0 auto;
     display: none;
     animation: 1s animation forwards;
-
 }
 
 .perguntas p.active {

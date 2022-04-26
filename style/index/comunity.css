@@ -18,14 +18,15 @@
     display: none;
 }
 
-.block-pessoa span {
+.block-pessoa div {
     display: none;
+    margin: 0 auto;
     transition: 1s;
     animation: 1s textAnimation forwards;
     margin-top: 50px;
 }
 
-.block-pessoa span.active {
+.block-pessoa div.active {
     display: block;
 }
 
@@ -44,13 +45,11 @@
 
 @keyframes textAnimation {
     from {
-
-        margin-left: -50px;
+        margin-top: -10px;
         opacity: 0;
     }
 
     to {
-
         opacity: 1;
     }
 }
@@ -59,10 +58,17 @@
     .pessoas {
         flex-wrap: nowrap;
         justify-content: unset;
+        max-width: 100%;
+        margin: 50px 0 25px 0;
+        padding: 0 50px
     }
 
     .block-pessoa {
-        max-width: 100%;
-
+       max-width: 250px;
+       margin: 0 auto;
     }
+
+    .block-pessoa p{
+        padding: 0;
+     }
 }

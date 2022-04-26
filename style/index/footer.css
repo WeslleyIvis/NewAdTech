@@ -9,6 +9,10 @@ footer p {
   font-size: 15px
 }
 
+.redes-sociais {
+  padding: 0 20px;
+}
+
 .block-footer {
   display: flex;
   flex-wrap: wrap;
