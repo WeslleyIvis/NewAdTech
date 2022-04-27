@@ -85,9 +85,12 @@ a {
 
 
 @media (max-width: 500px) {
-
   h2,
   h3 {
     font-size: 22px;
+  }
+
+  .carrousel img {
+    width: 99.9vw;
   }
 }

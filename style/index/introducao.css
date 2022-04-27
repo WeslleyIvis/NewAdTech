@@ -6,11 +6,12 @@
     flex-wrap: wrap;
     gap: 5em;
     background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 2;
 }
 
 .introducao img {
     max-width: 80vw;
-    left: 0;
 }
 
 .introducao div {
@@ -21,9 +22,18 @@
     .introducao {
         padding: 50px 0;
         text-align: center;
+        gap: 0;
     }
 
     .introducao div {
         padding: 0 20px;
+    }
+
+    .introducao img {
+        position: absolute;
+        left: 50px;
+        top: 150px;
+        z-index: -1;
+        opacity: .3;
     }
 }

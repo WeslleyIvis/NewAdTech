@@ -5,8 +5,24 @@
 }
 
 .block-cursos {
-  max-width: 700px;
+  padding-top: 20px;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.block-cursos div {
+  max-width: calc(1350px / 4);
+  background-color: rgba(0, 0, 0, 0.658);
+  padding: 20px;
+  border-radius: 10px
+}
+
+.block-cursos img {
+  width: 150px;
+  height: 150px;
 }
 
 .cursos h3 {
@@ -15,12 +31,13 @@
 }
 
 .cursos p {
-  padding: 0;
+  color: white;
 }
 
 .cursos h2 {
-  padding: 40px 0 0 0;
-  color: #d66868;
+  font-size: 20px;
+  padding: 40px 0;
+  color: #fda922
 }
 
 @media (max-width: 700px) {
@@ -34,12 +51,6 @@
 
   .block {
     padding: 30px 0;
-  }
-
-  .block-img {
-    margin: 0;
-    max-width: 210px;
-    height: 150px;
   }
 
   .block-cursos {
